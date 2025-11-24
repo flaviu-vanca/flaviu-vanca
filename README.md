@@ -61,8 +61,9 @@
 
 ## 📈 GitHub Stats
 
-![Thaparazite's GitHub stats](https://github-readme-stats.vercel.app/api?username=thaparazite&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=thaparazite&layout=compact&theme=radical)
+![GitHub stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=thaparazite&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=thaparazite&layout=compact&theme=radical)
+
 
 ---
 
