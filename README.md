@@ -1,4 +1,4 @@
-#  Hey, I'm Flaviu  👋 aka skety 
+# Hey, I'm Flaviu 👋 aka skety
 
 ![Profile Views](https://komarev.com/ghpvc/?username=flaviu-vanca&color=blue)
 
@@ -12,7 +12,7 @@
 
 ## 🚀 What I'm Doing Now
 
-- 🎓 MSc in Software Design with Cloud Native Computing (starting Sept 2025)
+- 🎓 MSc in Software Design with Cloud Native Computing (since Sept 2025)
 - ⚙️ Building personal projects with Spring Boot, Docker, and Terraform
 - 🔧 Exploring Azure DevOps Pipelines, GitHub Actions & infrastructure as code
 - 🧠 Practicing advanced GitHub Copilot prompts and backend architectures
@@ -32,12 +32,12 @@
 
 ### ☁️ Cloud Fundamentals
 
-[![Microsoft Azure Fundamentals](https://img.shields.io/badge/Microsoft-Azure_Fundamentals-%230072C6?style=flat&logo=microsoftazure&logoColor=white)](https://api.badgr.io/public/assertions/mHHG21uDRE2skeuKt54wPA?identity__email=skety_tm%40yahoo.com)
+[![Microsoft Azure Fundamentals](https://img.shields.io/badge/Microsoft-Azure_Fundamentals-%230072C6?style=flat&logo=microsoftazure&logoColor=white)](https://api.badgr.io/public/assertions/mHHG21uDRE2skeuKt54wPA)
 
 
 ### 📈 Digital Marketing
 
-[![Digital Marketing Institute Certification](https://img.shields.io/badge/Digital_Marketing_Institute-Certified-%230076B8?style=flat&logoColor=white)](https://api.badgr.io/public/assertions/mHHG21uDRE2skeuKt54wPA?identity__email=skety_tm%40yahoo.com)
+[![Digital Marketing Institute Certification](https://img.shields.io/badge/Digital_Marketing_Institute-Certified-%230076B8?style=flat&logoColor=white)](https://api.badgr.io/public/assertions/mHHG21uDRE2skeuKt54wPA)
 
 ---
 
@@ -45,7 +45,7 @@
 
 ### ⚡ Primary
 
-[![Java](https://img.shields.io/badge/Java-%231572B6.svg?style=flat&logo=openjdk&logoColor=white)](https://www.oracle.com/java/) [![Spring Boot](https://img.shields.io/badge/Spring_Boot-%236DB33F.svg?style=flat&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot) [![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)](https://www.docker.com/) [![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=flat&logo=kubernetes&logoColor=white)](https://kubernetes.io/) [![gRPC](https://img.shields.io/badge/gRPC-%230d8ecf.svg?style=flat&logo=grpc&logoColor=white)](https://grpc.io/) [![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=flat&logo=git&logoColor=white)](https://git-scm.com/) [![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat&logo=github&logoColor=white)](https://github.com/) [![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=flat&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
+[![Java](https://img.shields.io/badge/Java-%231572B6.svg?style=flat&logo=openjdk&logoColor=white)](https://www.oracle.com/java/) [![Spring Boot](https://img.shields.io/badge/Spring_Boot-%236DB33F.svg?style=flat&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot) [![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)](https://www.docker.com/) [![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=flat&logo=kubernetes&logoColor=white)](https://kubernetes.io/) [![gRPC](https://img.shields.io/badge/gRPC-%230d8ecf.svg?style=flat&logo=grpc&logoColor=white)](https://grpc.io/) [![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=flat&logo=git&logoColor=white)](https://git-scm.com/) [![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat&logo=github&logoColor=white)](https://github.com/) [![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=flat&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/) [![Terraform](https://img.shields.io/badge/Terraform-%237B42BC.svg?style=flat&logo=terraform&logoColor=white)](https://www.terraform.io/) [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white)](https://github.com/features/actions) [![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-%230078D7.svg?style=flat&logo=azuredevops&logoColor=white)](https://azure.microsoft.com/products/devops/)
 
 ### 🛠️ Secondary
 
@@ -61,8 +61,8 @@
 
 ## 📈 GitHub Stats
 
-![GitHub stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=flaviu-vanca&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=flaviu-vanca&layout=compact&theme=radical)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=flaviu-vanca&show_icons=true&theme=radical&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=flaviu-vanca&layout=compact&theme=radical&hide_border=true)
 
 
 ---
@@ -75,4 +75,4 @@
 
 ---
 
-> ## *"Work smart, automate hard."*
+> *"Work smart, automate hard."*
