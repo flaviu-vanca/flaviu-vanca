@@ -32,26 +32,7 @@ I enjoy taking ideas from **initial research and architecture through implementa
 
 ---
 
-## 🏗️ How I Build
-
-<div align="center">
-
-<img src="./assets/architecture.svg" alt="Reference cloud-native architecture: clients, Cloudflare, API gateway with Keycloak, Spring Boot services, PostgreSQL, Redis, RabbitMQ, Stripe, observability and a signed delivery pipeline to Azure" width="100%">
-
-</div>
-
----
-
 ## 🛠️ Tech Stack Used Across My Projects
-
-<div align="center">
-
-<img src="./assets/stack.svg" alt="Technologies detected in my code, updated daily" width="100%">
-
-</div>
-
-<details>
-<summary><b>Full tech stack</b></summary>
 
 | Area | Technologies |
 |------|--------------|
@@ -65,8 +46,6 @@ I enjoy taking ideas from **initial research and architecture through implementa
 | **Observability** | ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![Zipkin](https://img.shields.io/badge/Zipkin-FE7139?style=flat-square) ![Micrometer](https://img.shields.io/badge/Micrometer-1FA3C9?style=flat-square) |
 | **Testing** | ![JUnit 5](https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white) ![Testcontainers](https://img.shields.io/badge/Testcontainers-2496ED?style=flat-square&logo=docker&logoColor=white) ![ArchUnit](https://img.shields.io/badge/ArchUnit-6DB33F?style=flat-square) ![Karate](https://img.shields.io/badge/Karate-0B7285?style=flat-square) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white) ![JaCoCo](https://img.shields.io/badge/JaCoCo-BD1E59?style=flat-square) |
 | **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) ![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white) ![Bootstrap Studio](https://img.shields.io/badge/Bootstrap_Studio-7952B3?style=flat-square&logo=bootstrap&logoColor=white) |
-
-</details>
 
 ---
 
@@ -83,18 +62,6 @@ I enjoy taking ideas from **initial research and architecture through implementa
 | | [CompTIA A+ ce](https://www.credly.com/badges/35e7adb2-5cfe-443d-9628-8688ed4d439d/public_url) |
 | 💾 **Databases** | [Certiport IT Specialist – Databases](https://www.credly.com/badges/392e4969-deee-4641-a0d4-f9012445663b/public_url) |
 | 📈 **Digital Marketing** | [Digital Marketing Institute – Certified](https://api.badgr.io/public/assertions/mHHG21uDRE2skeuKt54wPA) |
-
----
-
-## 📊 GitHub Activity
-
-<div align="center">
-
-<img src="./assets/languages.svg" alt="Languages across my projects" width="49%"> <img src="./assets/rhythm.svg" alt="When I code" width="49%">
-
-<img src="./assets/activity.svg" alt="GitHub activity" width="49%">
-
-</div>
 
 ---
 
