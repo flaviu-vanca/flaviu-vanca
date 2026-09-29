@@ -1,4 +1,4 @@
-name: Update languages card
+name: Update profile cards
 
 on:
   schedule:
@@ -8,13 +8,14 @@ on:
     branches: [main]
     paths:
       - scripts/generate_languages_card.py
+      - scripts/generate_activity_card.py
       - .github/workflows/update-languages-card.yml
 
 permissions:
   contents: write
 
 concurrency:
-  group: languages-card
+  group: profile-cards
   cancel-in-progress: true
 
 jobs:
@@ -27,21 +28,23 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate card
+      - name: Generate cards
         env:
           GH_TOKEN: ${{ github.token }}
           # Optional read-only personal access token; includes private repositories.
           STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
-        run: python scripts/generate_languages_card.py
+        run: |
+          python scripts/generate_languages_card.py
+          python scripts/generate_activity_card.py
 
       - name: Commit if changed
         run: |
-          if git diff --quiet -- assets/languages.svg; then
-            echo "Card unchanged"
+          git add assets/languages.svg assets/activity.svg
+          if git diff --cached --quiet; then
+            echo "Cards unchanged"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/languages.svg
-          git commit -m "Update languages card"
+          git commit -m "Update profile cards"
           git push
