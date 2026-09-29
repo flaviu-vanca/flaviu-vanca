@@ -69,7 +69,7 @@ I enjoy taking ideas from **initial research and architecture through implementa
 
 ![Languages across my projects](./assets/languages.svg)
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=flaviu-vanca&theme=radical&hide_border=true)
+![GitHub activity](./assets/activity.svg)
 
 </div>
 
