@@ -53,13 +53,16 @@ def list_repos(token, private):
 
 
 def collect(token, private):
-    totals, count = {}, 0
+    totals, count, private_count = {}, 0, 0
     for repo in list_repos(token, private):
         if repo["fork"] or repo["archived"] or repo["owner"]["login"].lower() != USER.lower():
             continue
         count += 1
+        private_count += repo["private"]
         for lang, size in get(f"/repos/{repo['full_name']}/languages", token).items():
             totals[lang] = totals.get(lang, 0) + size
+    print(f"Counted {count} repositories ({private_count} private)"
+          + ("" if private else "; set STATS_TOKEN to include private ones"))
     return totals, count
 
 
