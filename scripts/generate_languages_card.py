@@ -11,7 +11,6 @@ Usage: python scripts/generate_languages_card.py [--from-json FILE]
 import json
 import os
 import sys
-import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 
@@ -30,34 +29,14 @@ COLORS = {
 FALLBACK = ["#f97316", "#22c55e", "#ec4899", "#14b8a6", "#eab308", "#6366f1"]
 
 
-def request(path, token):
+def get(path, token):
     req = urllib.request.Request(API + path, headers={
         "Accept": "application/vnd.github+json",
         "User-Agent": USER + "-profile-card",
         **({"Authorization": "Bearer " + token} if token else {}),
     })
     with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.load(resp), resp.headers
-
-
-def get(path, token):
-    return request(path, token)[0]
-
-
-def describe_token(token):
-    # Logs who the token belongs to and what it can do, never the token itself.
-    user, headers = request("/user", token)
-    scopes = headers.get("X-OAuth-Scopes")
-    kind = f"classic token, scopes: [{scopes}]" if scopes is not None else "fine-grained token"
-    print(f"STATS_TOKEN belongs to {user['login']} ({kind}); "
-          f"owned private repos visible: {user.get('owned_private_repos', 'n/a')}")
-    for query in ("visibility=private", "affiliation=owner&visibility=all", ""):
-        try:
-            repos = get(f"/user/repos?{query}&per_page=100", token)
-            print(f"  /user/repos?{query or '(defaults)'}: {len(repos)} repos, "
-                  f"{sum(r['private'] for r in repos)} private")
-        except urllib.error.HTTPError as err:
-            print(f"  /user/repos?{query or '(defaults)'}: HTTP {err.code}")
+        return json.load(resp)
 
 
 def list_repos(token, private):
@@ -75,8 +54,6 @@ def list_repos(token, private):
 
 def collect(token, private):
     totals, count, private_count = {}, 0, 0
-    if private:
-        describe_token(token)
     for repo in list_repos(token, private):
         if repo["fork"] or repo["archived"] or repo["owner"]["login"].lower() != USER.lower():
             continue
