@@ -5,16 +5,16 @@
 <text x="25" y="55" class="s">43 repositories · updated 29 Sep 2026</text>
 <clipPath id="c"><rect x="25" y="72" width="445" height="10" rx="5"/></clipPath>
 <g clip-path="url(#c)">
-<rect x="25.00" y="72" width="190.10" height="10" fill="#b07219"/>
-<rect x="214.60" y="72" width="88.26" height="10" fill="#f1e05a"/>
-<rect x="302.36" y="72" width="51.18" height="10" fill="#e34c26"/>
-<rect x="353.05" y="72" width="44.29" height="10" fill="#a97bff"/>
-<rect x="396.84" y="72" width="38.36" height="10" fill="#3178c6"/>
-<rect x="434.70" y="72" width="10.67" height="10" fill="#2dd4bf"/>
-<rect x="444.87" y="72" width="7.75" height="10" fill="#5391fe"/>
-<rect x="452.12" y="72" width="6.29" height="10" fill="#e38c00"/>
-<rect x="457.91" y="72" width="6.00" height="10" fill="#844fba"/>
-<rect x="463.41" y="72" width="7.09" height="10" fill="#8b949e"/>
+<rect x="25.00" y="72" width="190.12" height="10" fill="#b07219"/>
+<rect x="214.62" y="72" width="88.28" height="10" fill="#f1e05a"/>
+<rect x="302.40" y="72" width="51.19" height="10" fill="#e34c26"/>
+<rect x="353.09" y="72" width="44.30" height="10" fill="#a97bff"/>
+<rect x="396.89" y="72" width="38.36" height="10" fill="#3178c6"/>
+<rect x="434.75" y="72" width="10.67" height="10" fill="#2dd4bf"/>
+<rect x="444.92" y="72" width="7.75" height="10" fill="#5391fe"/>
+<rect x="452.17" y="72" width="6.29" height="10" fill="#e38c00"/>
+<rect x="457.96" y="72" width="6.00" height="10" fill="#844fba"/>
+<rect x="463.46" y="72" width="7.04" height="10" fill="#8b949e"/>
 </g>
 <circle cx="30.0" cy="108" r="5" fill="#b07219"/><text x="41.0" y="112" class="l">Java 42.6%</text>
 <circle cx="252.5" cy="108" r="5" fill="#f1e05a"/><text x="263.5" y="112" class="l">JavaScript 19.7%</text>
