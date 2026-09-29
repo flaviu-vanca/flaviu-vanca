@@ -1,3 +1,5 @@
+&nbsp;
+
 <div align="center">
 
 <img src="./assets/terminal.svg" alt="Terminal session: whoami, about, education, tech stack, certifications, a signed deploy pipeline and contact details for Flaviu Vanca" width="100%">
