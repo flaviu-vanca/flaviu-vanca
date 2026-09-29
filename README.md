@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/terminal.svg" alt="Terminal session: whoami, about, education, tech stack, certifications, a signed deploy pipeline and contact details for Flaviu Vanca" width="100%">
+<img src="./assets/terminal.svg" alt="Terminal session: whoami, about, education, tech stack, certifications with verification links, a signed deploy pipeline and contact links for Flaviu Vanca" width="100%">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/flaviu-vanca)
 [![GitHub](https://img.shields.io/badge/GitHub-flaviu--vanca-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/flaviu-vanca)
