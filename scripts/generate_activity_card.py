@@ -1,8 +1,9 @@
 """Generate assets/activity.svg from the GitHub GraphQL contributions calendar.
 
 Shows contributions over the last 12 months, the current and longest
-streak, and commit / pull request / code review totals. (GitHub already
-shows the contribution heatmap on the profile, so it is not repeated.) With STATS_TOKEN (a token belonging to
+streak, active days, the busiest day and the average per active day, all
+from the contributions calendar. (GitHub already shows the heatmap on the
+profile, and its per-type totals leave out private-repository work.) With STATS_TOKEN (a token belonging to
 the profile owner) private contributions are included; otherwise only
 public ones are counted, using GH_TOKEN.
 
@@ -22,9 +23,6 @@ QUERY = """
 query($login: String!) {
   user(login: $login) {
     contributionsCollection {
-      totalCommitContributions
-      totalPullRequestContributions
-      totalPullRequestReviewContributions
       contributionCalendar {
         totalContributions
         weeks { contributionDays { date contributionCount } }
@@ -34,7 +32,7 @@ query($login: String!) {
 }
 """
 
-def fetch(token):
+def fetch_days(token):
     body = json.dumps({"query": QUERY, "variables": {"login": USER}}).encode()
     req = urllib.request.Request("https://api.github.com/graphql", data=body, headers={
         "Authorization": "Bearer " + token,
@@ -45,15 +43,8 @@ def fetch(token):
         data = json.load(resp)
     if "errors" in data:
         sys.exit(f"GraphQL error: {data['errors']}")
-    coll = data["data"]["user"]["contributionsCollection"]
-    weeks = coll["contributionCalendar"]["weeks"]
-    days = [(d["date"], d["contributionCount"]) for w in weeks for d in w["contributionDays"]]
-    totals = {
-        "commits": coll["totalCommitContributions"],
-        "pull requests": coll["totalPullRequestContributions"],
-        "code reviews": coll["totalPullRequestReviewContributions"],
-    }
-    return days, totals
+    weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+    return [(d["date"], d["contributionCount"]) for w in weeks for d in w["contributionDays"]]
 
 
 def streaks(days):
@@ -74,9 +65,12 @@ def streaks(days):
     return current, longest
 
 
-def render(days, totals, private=True):
+def render(days, private=True):
     total = sum(c for _, c in days)
     current, longest = streaks(days)
+    active = sum(1 for _, c in days if c)
+    busiest = max((c for _, c in days), default=0)
+    average = total / active if active else 0
     updated = datetime.now(timezone.utc).strftime("%d %b %Y")
     scope = "public &amp; private" if private else "public only"
 
@@ -96,7 +90,8 @@ def render(days, totals, private=True):
     rows = [
         [(f"{total:,}", "contributions"), (f"{current}", "day current streak"),
          (f"{longest}", "day longest streak")],
-        [(f"{n:,}", label) for label, n in totals.items()],
+        [(f"{active}", "active days"), (f"{busiest}", "on the busiest day"),
+         (f"{average:.1f}", "per active day")],
     ]
     col = (width - 2 * pad) / 3
     for r, row in enumerate(rows):
@@ -110,16 +105,15 @@ def render(days, totals, private=True):
 
 def main():
     if len(sys.argv) == 3 and sys.argv[1] == "--from-json":
-        data = json.load(open(sys.argv[2]))
-        days, totals = [tuple(d) for d in data["days"]], data["totals"]
+        days = [tuple(d) for d in json.load(open(sys.argv[2]))]
         private = True
     else:
         private = bool(os.environ.get("STATS_TOKEN"))
-        days, totals = fetch(os.environ.get("STATS_TOKEN") or os.environ.get("GH_TOKEN", ""))
+        days = fetch_days(os.environ.get("STATS_TOKEN") or os.environ.get("GH_TOKEN", ""))
     if not days:
         sys.exit("No contribution data returned; leaving the existing card untouched.")
     with open(OUT, "w") as f:
-        f.write(render(days, totals, private))
+        f.write(render(days, private))
     print(f"Rendered {len(days)} days, {sum(c for _, c in days)} contributions")
 
 
