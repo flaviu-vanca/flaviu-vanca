@@ -19,22 +19,13 @@ I build **cloud-native systems end to end** — from Spring Boot microservices a
 
 I care about the parts that make software production-ready: **security** (OAuth2, Keycloak), **observability** (OpenTelemetry, Prometheus, Grafana), **automated testing** and **secure delivery pipelines**.
 
-Oracle-certified in Java (OCA & OCP, Java SE 8) and CompTIA-certified in IT operations and networking, I bring both the development and the operations side of the picture.
+Oracle-certified in Java (OCA & OCP, Java SE 8) and CompTIA-certified in IT operations and networking, I bring both the development and the operations side of the picture. I'm currently pursuing an **MSc in Software Design with Cloud Native Computing**.
 
 <!-- 🌐 Founder of SketySoft — future-ready cloud solutions -->
 
-### 🚀 Currently
-
-- 🎓 Studying for an **MSc in Software Design with Cloud Native Computing** (since Sept 2025)
-- 🅿️ Building **WexfordCarPark**, a cloud-native parking platform: a suite of **Spring Boot / Spring Cloud microservices** behind an API gateway, with **React + TypeScript** apps for drivers, wardens (offline-capable PWA) and admins
-- ☁️ Provisioning it on **Azure Container Apps** with **Terraform** (Key Vault, Storage, Application Insights, Cloudflare DNS, Supabase Postgres, Upstash Redis, CloudAMQP)
-- 🔐 Securing it with **Keycloak / OAuth2**, event-driven messaging over **RabbitMQ** (Spring Modulith) and **Stripe** payments
-- 🔁 Shipping through **GitHub Actions** with reusable workflows, **Trivy** vulnerability scanning and **Cosign** image signing
-- 📈 Observing it with **OpenTelemetry, Prometheus, Grafana and Zipkin**
-
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack Used Across My Projects
 
 | Area | Technologies |
 |------|--------------|
@@ -48,18 +39,6 @@ Oracle-certified in Java (OCA & OCP, Java SE 8) and CompTIA-certified in IT oper
 | **Observability** | ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![Zipkin](https://img.shields.io/badge/Zipkin-FE7139?style=flat-square) ![Micrometer](https://img.shields.io/badge/Micrometer-1FA3C9?style=flat-square) |
 | **Testing** | ![JUnit 5](https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white) ![Testcontainers](https://img.shields.io/badge/Testcontainers-2496ED?style=flat-square&logo=docker&logoColor=white) ![ArchUnit](https://img.shields.io/badge/ArchUnit-6DB33F?style=flat-square) ![Karate](https://img.shields.io/badge/Karate-0B7285?style=flat-square) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white) ![JaCoCo](https://img.shields.io/badge/JaCoCo-BD1E59?style=flat-square) |
 | **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) ![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white) ![Bootstrap Studio](https://img.shields.io/badge/Bootstrap_Studio-7952B3?style=flat-square&logo=bootstrap&logoColor=white) |
-
----
-
-## 📌 Featured Projects
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [**library-microservices**](https://github.com/flaviu-vanca/library-microservices) | Library platform split into auth, inventory and library services with config server, service discovery and an API gateway | Spring Boot · Spring Cloud · MySQL · Docker Compose |
-| [**library-management-api**](https://github.com/flaviu-vanca/library-management-api) | RESTful library API validated by a full CI/CD pipeline with quality gates and coverage | Spring Boot · Docker · Jenkins · SonarQube · JUnit 5 · Karate |
-| [**Microservices with Spring Cloud**](https://github.com/flaviu-vanca/Master-Microservices-with-Spring-Boot-and-Spring-Cloud---3.x.x) | Currency exchange/conversion services with Eureka, API gateway, OpenFeign, Resilience4j and distributed tracing | Spring Cloud · Docker · Kubernetes · Zipkin |
-| [**gRPC-Java-Example**](https://github.com/flaviu-vanca/gRPC-Java-Example) · [**Pollution-Monitoring-System**](https://github.com/flaviu-vanca/Pollution-Monitoring-System) | Service-to-service communication with Protocol Buffers, in Java and Node.js | gRPC · Protobuf · Java · Node.js |
-| [**NV-Autodetailing**](https://github.com/flaviu-vanca/NV-Autodetailing) | SEO-ready multi-page website for an auto detailing business | HTML · SCSS · Bootstrap · JavaScript · PHP · Netlify |
 
 ---
 
@@ -83,12 +62,9 @@ Oracle-certified in Java (OCA & OCP, Java SE 8) and CompTIA-certified in IT oper
 
 <div align="center">
 
+![Languages across my projects](./assets/languages.svg)
+
 ![GitHub Streak](https://streak-stats.demolab.com/?user=flaviu-vanca&theme=radical&hide_border=true)
-
-![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=flaviu-vanca&theme=radical)
-![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=flaviu-vanca&theme=radical)
-
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=flaviu-vanca&theme=react-dark&hide_border=true&area=true)
 
 </div>
 
