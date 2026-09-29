@@ -19,7 +19,13 @@ I build **cloud-native systems end to end** — from Spring Boot microservices a
 
 I care about the parts that make software production-ready: **security** (OAuth2, Keycloak), **observability** (OpenTelemetry, Prometheus, Grafana), **automated testing** and **secure delivery pipelines**.
 
-Oracle-certified in Java (OCA & OCP, Java SE 8) and CompTIA-certified in IT operations and networking, I bring both the development and the operations side of the picture. I'm currently pursuing an **MSc in Software Design with Cloud Native Computing**.
+Oracle-certified in Java (OCA & OCP, Java SE 8) and CompTIA-certified in IT operations and networking, I bring both the development and the operations side of the picture.
+
+🎓 **Education**
+- **MSc in Software Design with Cloud Native Computing** — in progress
+- **Higher Diploma in Science in Computing** — National College of Ireland
+
+💼 Open to **Java Developer / Software Engineer** opportunities.
 
 <!-- 🌐 Founder of SketySoft — future-ready cloud solutions -->
 
