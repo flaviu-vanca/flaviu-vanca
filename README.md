@@ -1,5 +1,16 @@
 <div align="center">
 
+<img src="./assets/terminal.svg" alt="Terminal session: whoami, about, education, tech stack, certifications, a signed deploy pipeline and contact details for Flaviu Vanca" width="100%">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/flaviu-vanca)
+![Profile Views](https://komarev.com/ghpvc/?username=flaviu-vanca&style=for-the-badge&color=blue&label=Profile+Views)
+
+</div>
+
+<!-- Classic profile, hidden while the CLI version is live. Remove these comment markers to restore it.
+
+<div align="center">
+
 # Hi, I'm Flaviu Vanca 👋
 
 ### Software Engineer · Backend · Cloud-Native · AI-Native Engineering
@@ -28,7 +39,7 @@ I enjoy taking ideas from **initial research and architecture through implementa
 
 💼 Open to **Software Engineer / Java Developer** opportunities.
 
-<!-- 🌐 Founder of SketySoft — future-ready cloud solutions -->
+🌐 Founder of SketySoft — future-ready cloud solutions (hidden)
 
 ---
 
@@ -69,10 +80,12 @@ I enjoy taking ideas from **initial research and architecture through implementa
 
 I'm always open to conversations about **backend development, cloud architecture and DevOps** — feel free to reach out on [LinkedIn](https://www.linkedin.com/in/flaviu-vanca).
 
-<!-- - ☁️ SketySoft (coming soon...) -->
+- ☁️ SketySoft (coming soon...) (hidden)
 
 <div align="center">
 
 *"Work smart, automate hard."*
 
 </div>
+
+-->
