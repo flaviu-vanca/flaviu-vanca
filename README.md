@@ -3,7 +3,19 @@
 <img src="./assets/terminal.svg" alt="Terminal session: whoami, about, education, tech stack, certifications, a signed deploy pipeline and contact details for Flaviu Vanca" width="100%">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/flaviu-vanca)
+[![GitHub](https://img.shields.io/badge/GitHub-flaviu--vanca-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/flaviu-vanca)
 ![Profile Views](https://komarev.com/ghpvc/?username=flaviu-vanca&style=for-the-badge&color=blue&label=Profile+Views)
+
+**Verified certifications**
+
+[![Oracle OCP Java SE 8](https://img.shields.io/badge/Oracle-OCP_Java_SE_8-F80000?style=flat-square&logo=oracle&logoColor=white)](https://www.credly.com/badges/fc15122b-a685-44bd-9add-577d32aa800a/public_url)
+[![Oracle OCA Java SE 8](https://img.shields.io/badge/Oracle-OCA_Java_SE_8-F80000?style=flat-square&logo=oracle&logoColor=white)](https://www.credly.com/badges/4d63d30e-ba44-49de-a0f4-765d68e19f09/public_url)
+[![Oracle Java Foundations](https://img.shields.io/badge/Oracle-Java_Foundations-F80000?style=flat-square&logo=oracle&logoColor=white)](https://www.credly.com/badges/31d2bce8-0cbd-454d-b0aa-4f624e68e3bb/public_url)
+[![Azure Fundamentals](https://img.shields.io/badge/Microsoft-Azure_Fundamentals-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://api.badgr.io/public/assertions/mHHG21uDRE2skeuKt54wPA)
+[![CompTIA CIOS](https://img.shields.io/badge/CompTIA-CIOS-C8202F?style=flat-square&logo=comptia&logoColor=white)](https://www.credly.com/badges/62cce8d4-8a62-4e52-b050-c25c57c15cd4/public_url)
+[![CompTIA Network+](https://img.shields.io/badge/CompTIA-Network%2B_ce-C8202F?style=flat-square&logo=comptia&logoColor=white)](https://www.credly.com/badges/9f22a240-1e9c-4da9-add9-14af82cad96d/public_url)
+[![CompTIA A+](https://img.shields.io/badge/CompTIA-A%2B_ce-C8202F?style=flat-square&logo=comptia&logoColor=white)](https://www.credly.com/badges/35e7adb2-5cfe-443d-9628-8688ed4d439d/public_url)
+[![IT Specialist Databases](https://img.shields.io/badge/Certiport-IT_Specialist_Databases-005698?style=flat-square)](https://www.credly.com/badges/392e4969-deee-4641-a0d4-f9012445663b/public_url)
 
 </div>
 
