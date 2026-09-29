@@ -1,4 +1,4 @@
-# Hey, I'm Flaviu 👋 aka skety
+# Hey, I'm Flaviu 👋
 
 ![Profile Views](https://komarev.com/ghpvc/?username=flaviu-vanca&color=blue)
 
