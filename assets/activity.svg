@@ -3,10 +3,10 @@
 <rect width="495" height="175" rx="6" fill="#141321"/>
 <text x="25" y="35" class="t">GitHub activity</text>
 <text x="25" y="55" class="s">Last 12 months, public &amp; private · updated 29 Sep 2026</text>
-<text x="25" y="90" class="n">1,424</text><text x="25" y="107" class="k">contributions</text>
+<text x="25" y="90" class="n">1,426</text><text x="25" y="107" class="k">contributions</text>
 <text x="173" y="90" class="n">1</text><text x="173" y="107" class="k">day current streak</text>
 <text x="322" y="90" class="n">12</text><text x="322" y="107" class="k">day longest streak</text>
-<text x="25" y="145" class="n">159</text><text x="25" y="162" class="k">commits</text>
-<text x="173" y="145" class="n">27</text><text x="173" y="162" class="k">pull requests</text>
-<text x="322" y="145" class="n">0</text><text x="322" y="162" class="k">code reviews</text>
+<text x="25" y="145" class="n">101</text><text x="25" y="162" class="k">active days</text>
+<text x="173" y="145" class="n">83</text><text x="173" y="162" class="k">on the busiest day</text>
+<text x="322" y="145" class="n">14.1</text><text x="322" y="162" class="k">per active day</text>
 </svg>
