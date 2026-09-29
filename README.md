@@ -2,7 +2,7 @@
 
 # Hi, I'm Flaviu Vanca 👋
 
-### Full-Stack Java Developer · Cloud-Native & DevOps
+### Software Engineer · Backend · Cloud-Native · AI-Native Engineering
 
 **Java · Spring Boot & Spring Cloud · React & TypeScript · Azure · Terraform · CI/CD**
 
@@ -15,17 +15,16 @@
 
 ## 👨‍💻 About Me
 
-I build **cloud-native systems end to end** — from Spring Boot microservices and event-driven backends, through React/TypeScript front-ends, to the Terraform-provisioned cloud infrastructure and CI/CD pipelines that ship them.
+**Software Engineer** with an **MSc in Software Design with Cloud Native Computing**, focused on **backend development, cloud technologies, automation and AI-native software engineering**. My technical background includes Java, networking, databases, REST APIs, microservices, Docker, Kubernetes and CI/CD.
 
-I care about the parts that make software production-ready: **security** (OAuth2, Keycloak), **observability** (OpenTelemetry, Prometheus, Grafana), **automated testing** and **secure delivery pipelines**.
-
-Oracle-certified in Java (OCA & OCP, Java SE 8) and CompTIA-certified in IT operations and networking, I bring both the development and the operations side of the picture.
+I enjoy taking ideas from **initial research and architecture through implementation to production-ready systems**, using LLMs throughout the development process while remaining actively involved in technical decisions, validation and refinement. I'm particularly interested in **LLMs, agentic systems, AI tooling** and modern software engineering workflows.
 
 🎓 **Education**
-- **MSc in Software Design with Cloud Native Computing** — in progress
-- **Higher Diploma in Science in Computing** — National College of Ireland
+- **MSc Science in Computing – Cloud Native Software Design** · Technological University of the Shannon (2025 – 2026)
+- **Higher Diploma in Science in Computing** · National College of Ireland (2023 – 2024)
+- **Science in Computing Certificate** · National College of Ireland (2023)
 
-💼 Open to **Java Developer / Software Engineer** opportunities.
+💼 Open to **Software Engineer / Java Developer** opportunities.
 
 <!-- 🌐 Founder of SketySoft — future-ready cloud solutions -->
 
