@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="534" viewBox="0 0 830 534" role="img" aria-label="Technologies detected in my code">
+<style>.t{font:600 18px "Segoe UI",Ubuntu,sans-serif;fill:#fe428e}.s{font:400 12px "Segoe UI",Ubuntu,sans-serif;fill:#a9fef7;opacity:.75}.c{font:600 13px "Segoe UI",Ubuntu,sans-serif;fill:#f8d847}.p{font:400 12px "Segoe UI",Ubuntu,sans-serif;fill:#a9fef7}.x{fill:#fe428e;font-weight:600}</style>
+<rect width="830" height="534" rx="6" fill="#141321"/>
+<text x="25" y="35" class="t">Tech detected in my code</text>
+<text x="25" y="55" class="s">Auto-scanned build files, IaC and pipelines across 43 public &amp; private repositories · ×N = repositories using it · updated 29 Sep 2026</text>
+<text x="25" y="93" class="c">Backend</text>
+<rect x="175" y="78" width="132" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="185" y="93" class="p">Spring Boot<tspan class="x">  ×19</tspan></text>
+<rect x="315" y="78" width="139" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="325" y="93" class="p">Spring Cloud<tspan class="x">  ×13</tspan></text>
+<rect x="462" y="78" width="160" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="472" y="93" class="p">Spring Data JPA<tspan class="x">  ×13</tspan></text>
+<rect x="630" y="78" width="160" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="640" y="93" class="p">Spring Security<tspan class="x">  ×11</tspan></text>
+<rect x="175" y="108" width="90" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="185" y="123" class="p">Flyway<tspan class="x">  ×8</tspan></text>
+<rect x="273" y="108" width="132" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="283" y="123" class="p">Resilience4j<tspan class="x">  ×8</tspan></text>
+<rect x="413" y="108" width="153" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="423" y="123" class="p">Spring Modulith<tspan class="x">  ×8</tspan></text>
+<rect x="574" y="108" width="76" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="584" y="123" class="p">gRPC<tspan class="x">  ×4</tspan></text>
+<rect x="658" y="108" width="90" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="668" y="123" class="p">JavaFX<tspan class="x">  ×3</tspan></text>
+<rect x="175" y="138" width="97" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="185" y="153" class="p">Node.js<tspan class="x">  ×2</tspan></text>
+<rect x="280" y="138" width="111" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="290" y="153" class="p">Thymeleaf<tspan class="x">  ×2</tspan></text>
+<text x="25" y="189" class="c">Frontend</text>
+<rect x="175" y="174" width="69" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="185" y="189" class="p">PWA<tspan class="x">  ×3</tspan></text>
+<rect x="252" y="174" width="83" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="262" y="189" class="p">React<tspan class="x">  ×3</tspan></text>
+<rect x="343" y="174" width="132" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="353" y="189" class="p">Tailwind CSS<tspan class="x">  ×3</tspan></text>
+<rect x="483" y="174" width="104" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="493" y="189" class="p">TanStack<tspan class="x">  ×3</tspan></text>
+<rect x="595" y="174" width="118" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="605" y="189" class="p">TypeScript<tspan class="x">  ×3</tspan></text>
+<rect x="721" y="174" width="76" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="731" y="189" class="p">Vite<tspan class="x">  ×3</tspan></text>
+<text x="25" y="225" class="c">Mobile</text>
+<rect x="175" y="210" width="97" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="185" y="225" class="p">Android<tspan class="x">  ×1</tspan></text>
+<rect x="280" y="210" width="153" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="290" y="225" class="p">Jetpack Compose<tspan class="x">  ×1</tspan></text>
+<rect x="441" y="210" width="76" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="451" y="225" class="p">Room<tspan class="x">  ×1</tspan></text>
+<rect x="525" y="210" width="111" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="535" y="225" class="p">SQLCipher<tspan class="x">  ×1</tspan></text>
+<text x="25" y="261" class="c">Data &amp; Messaging</text>
+<rect x="175" y="246" width="125" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="185" y="261" class="p">PostgreSQL<tspan class="x">  ×12</tspan></text>
+<rect x="308" y="246" width="111" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="318" y="261" class="p">RabbitMQ<tspan class="x">  ×11</tspan></text>
+<rect x="427" y="246" width="90" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="437" y="261" class="p">Redis<tspan class="x">  ×11</tspan></text>
+<rect x="525" y="246" width="83" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="535" y="261" class="p">MySQL<tspan class="x">  ×2</tspan></text>
+<rect x="616" y="246" width="104" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="626" y="261" class="p">Supabase<tspan class="x">  ×1</tspan></text>
+<text x="25" y="297" class="c">Security</text>
+<rect x="175" y="282" width="76" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="185" y="297" class="p">JWT<tspan class="x">  ×10</tspan></text>
+<rect x="259" y="282" width="104" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="269" y="297" class="p">Keycloak<tspan class="x">  ×3</tspan></text>
+<rect x="371" y="282" width="90" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="381" y="297" class="p">Stripe<tspan class="x">  ×2</tspan></text>
+<text x="25" y="333" class="c">Cloud &amp; IaC</text>
+<rect x="175" y="318" width="83" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="185" y="333" class="p">Azure<tspan class="x">  ×1</tspan></text>
+<rect x="266" y="318" width="118" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="276" y="333" class="p">Cloudflare<tspan class="x">  ×1</tspan></text>
+<rect x="392" y="318" width="97" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="402" y="333" class="p">Netlify<tspan class="x">  ×1</tspan></text>
+<rect x="497" y="318" width="111" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="507" y="333" class="p">Terraform<tspan class="x">  ×1</tspan></text>
+<text x="25" y="369" class="c">DevOps &amp; CI/CD</text>
+<rect x="175" y="354" width="90" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="185" y="369" class="p">Maven<tspan class="x">  ×27</tspan></text>
+<rect x="273" y="354" width="153" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="283" y="369" class="p">GitHub Actions<tspan class="x">  ×20</tspan></text>
+<rect x="434" y="354" width="97" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="444" y="369" class="p">Docker<tspan class="x">  ×16</tspan></text>
+<rect x="539" y="354" width="97" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="549" y="369" class="p">Cosign<tspan class="x">  ×14</tspan></text>
+<rect x="644" y="354" width="146" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="654" y="369" class="p">Docker Compose<tspan class="x">  ×3</tspan></text>
+<rect x="175" y="384" width="90" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="185" y="399" class="p">Gradle<tspan class="x">  ×1</tspan></text>
+<rect x="273" y="384" width="97" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="283" y="399" class="p">Jenkins<tspan class="x">  ×1</tspan></text>
+<rect x="378" y="384" width="118" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="388" y="399" class="p">Kubernetes<tspan class="x">  ×1</tspan></text>
+<rect x="504" y="384" width="111" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="514" y="399" class="p">SonarQube<tspan class="x">  ×1</tspan></text>
+<rect x="623" y="384" width="83" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="633" y="399" class="p">Trivy<tspan class="x">  ×1</tspan></text>
+<text x="25" y="435" class="c">Observability</text>
+<rect x="175" y="420" width="146" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="185" y="435" class="p">OpenTelemetry<tspan class="x">  ×13</tspan></text>
+<rect x="329" y="420" width="125" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="339" y="435" class="p">Prometheus<tspan class="x">  ×12</tspan></text>
+<rect x="462" y="420" width="90" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="472" y="435" class="p">Zipkin<tspan class="x">  ×3</tspan></text>
+<rect x="560" y="420" width="97" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="570" y="435" class="p">Grafana<tspan class="x">  ×2</tspan></text>
+<text x="25" y="471" class="c">Testing</text>
+<rect x="175" y="456" width="104" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="185" y="471" class="p">JUnit 5<tspan class="x">  ×20</tspan></text>
+<rect x="287" y="456" width="153" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="297" y="471" class="p">Testcontainers<tspan class="x">  ×14</tspan></text>
+<rect x="448" y="456" width="104" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="458" y="471" class="p">ArchUnit<tspan class="x">  ×8</tspan></text>
+<rect x="560" y="456" width="90" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="570" y="471" class="p">JaCoCo<tspan class="x">  ×5</tspan></text>
+<rect x="658" y="456" width="118" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="668" y="471" class="p">Playwright<tspan class="x">  ×3</tspan></text>
+<rect x="175" y="486" width="90" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="185" y="501" class="p">Vitest<tspan class="x">  ×3</tspan></text>
+<rect x="273" y="486" width="104" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="283" y="501" class="p">Cucumber<tspan class="x">  ×1</tspan></text>
+<rect x="385" y="486" width="90" height="22" rx="11" fill="#1f1d31" stroke="#fe428e" stroke-opacity=".45"/><text x="395" y="501" class="p">Karate<tspan class="x">  ×1</tspan></text>
+</svg>
