@@ -11,6 +11,7 @@ Usage: python scripts/generate_languages_card.py [--from-json FILE]
 import json
 import os
 import sys
+import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 
@@ -50,11 +51,18 @@ def describe_token(token):
     kind = f"classic token, scopes: [{scopes}]" if scopes is not None else "fine-grained token"
     print(f"STATS_TOKEN belongs to {user['login']} ({kind}); "
           f"owned private repos visible: {user.get('owned_private_repos', 'n/a')}")
+    for query in ("visibility=private", "affiliation=owner&visibility=all", ""):
+        try:
+            repos = get(f"/user/repos?{query}&per_page=100", token)
+            print(f"  /user/repos?{query or '(defaults)'}: {len(repos)} repos, "
+                  f"{sum(r['private'] for r in repos)} private")
+        except urllib.error.HTTPError as err:
+            print(f"  /user/repos?{query or '(defaults)'}: HTTP {err.code}")
 
 
 def list_repos(token, private):
     # /user/repos needs a personal token and then includes private repos.
-    path = ("/user/repos?affiliation=owner&visibility=all" if private
+    path = ("/user/repos?visibility=all" if private
             else f"/users/{USER}/repos?type=owner")
     repos, page = [], 1
     while True:
